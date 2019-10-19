@@ -36,7 +36,7 @@ end
 
 def reduce_to_all_true(arr)
   for i in 0...arr.length do
-    if arr[i] == false do
+    if arr[i] == false
       return false
     end
   end
