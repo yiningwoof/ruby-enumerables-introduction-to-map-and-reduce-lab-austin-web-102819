@@ -29,7 +29,7 @@ end
 
 def reduce_to_total(arr, start = 0)
   sum = 0
-  for i in start...arr.length do
+  for i in 0...arr.length do
     sum += arr[i]
   end
   sum
