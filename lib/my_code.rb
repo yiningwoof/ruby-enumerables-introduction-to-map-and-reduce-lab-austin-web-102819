@@ -33,3 +33,6 @@ def reduce_to_total(arr, start = 0)
   end
   start
 end
+
+def reduce_to_all_true(arr)
+  
