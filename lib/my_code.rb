@@ -43,9 +43,9 @@ def reduce_to_all_true(arr)
   true
 end
 
-# def reduce_to_any_true(arr)
-#   result = false
-#   for i in 0...arr.length do
-#     result = true if arr[i] == true
-#     return result
+def reduce_to_any_true(arr)
+  result = false
+  for i in 0...arr.length do
+    result = true if arr[i] == true
+    return result
     
